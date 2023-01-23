@@ -49,7 +49,7 @@
 
     <!-- js perso -->
     <script type="text/javascript" src="<?= URL . 'inc/js/moment.js'?>"></script>
-    <script src="<?= URL . 'inc/js/functions.js'?>"></script>
+    <script src="<?= 'inc/js/functions.js'?>"></script>
 
 </head>
 <body>
@@ -57,14 +57,14 @@
   
     <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top hautpage">
-  <a class="navbar-brand" href="<?= URL ?>">Veville</a>
+  <a class="navbar-brand" href="<?= URL . 'index.php' ?>">Veville</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item <?= ($title == 'Accueil') ? 'active' : '' ?>">
-        <a class="nav-link" href="<?= URL ?>">Accueil <span class="sr-only">Accueil</span></a>
+        <a class="nav-link" href="<?= URL . 'index.php' ?>">Accueil<span class="sr-only">Accueil</span></a>
       </li>
       <li class="nav-item <?= ($title == 'Contact') ? 'active' : '' ?>">
         <a class="nav-link" href="<?=  URL . 'contact.php' ?>"> Contact </a>

@@ -40,7 +40,7 @@ if ( isset($_POST['validmodifcoord']) ){ // j'ai valider le formulaire lié aux 
                 'civilite' => $_POST['civilite'],
                 'nom' => $_POST['nom'],
                 'prenom' => $_POST['prenom'],
-                'id_membre' => $_SESSION['membre']['id_membre']
+                //'id_membre' => $_SESSION['membre']['id_membre']
             ));
 
             // je mets à jour la session

@@ -27,5 +27,7 @@ $(document).ready(function(){
     //     } 
     // });
 
+  
+});    // -----------tri par prix croissant -----------
 
-}); // fin du document ready 
+ 

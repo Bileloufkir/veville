@@ -6,7 +6,7 @@ $title="Connexion";
 if(isset($_GET['action']) && $_GET['action']== 'deconnexion'){
     // session_destroy();
     unset($_SESSION['membre']);
-    header('location:'. URL);
+    header('location:'. URL . 'connexion.php');
     exit();
 }
 

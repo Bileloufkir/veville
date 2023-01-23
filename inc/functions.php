@@ -31,7 +31,7 @@ function execRequete($req,$params=array()){
   }
   $r->execute();
   if ( !empty( $r->errorInfo()[2] )){
-    die('Erreur rencontrée - merci de contacter l\'administrateur');
+    die('<h1 style="text-align:center">Erreur rencontrée - merci de contacter l\'administrateur</h1>');
   }
   return $r;
 }

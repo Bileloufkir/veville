@@ -13,7 +13,7 @@
         </div>
         <div class="container-fluid">
             <div class="row bas">                        
-                <div class="copyrights col-12">
+                <div class="copyrights col-12"><span style="color:white">
                     &copy; <?= date('Y') ?> - Veville -
                             Bilel OUFKIR
                     <p> Ce site n'a aucun but commercial, il est réalisé dans le cadre d'un atelier pédagogique  au sein de l'organisme de formation IFOCOP. </p>
@@ -84,6 +84,7 @@ $.extend($.fn.datetimepicker.Constructor.Default, {
 </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js" integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         
         <!-- Icons -->
         <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
